@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Logger\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Dll\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>Dll\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Dll\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logger.h">
+      <Filter>Logger\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Dll\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Dll\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Dll\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="sigscanner.h">
+      <Filter>Dll\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionsToHook.h">
+      <Filter>Dll\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{9491a5b3-4b6f-48d6-8baf-4e6d7acd1df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger\Header">
+      <UniqueIdentifier>{0af64bcb-24c9-4ab5-89a4-ea60b3d2bd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger\Source">
+      <UniqueIdentifier>{2157c38c-89fb-4e80-9f99-8654f1b125e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dll">
+      <UniqueIdentifier>{4985f84f-0b0e-4609-b9ff-78dca0cfbc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dll\Header">
+      <UniqueIdentifier>{aa3c3876-223b-4d81-91b1-019263bccb02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dll\Source">
+      <UniqueIdentifier>{4fb8c0cc-8813-467f-8527-cf9f9550c91d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
